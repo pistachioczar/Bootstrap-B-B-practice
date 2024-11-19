@@ -1,0 +1,38 @@
+/* Basic styling */
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header a h1{
+    font-weight: 200;
+}
+
+.nav-link{
+    font-size: 30px;
+}
+
+#carousel{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome{
+    text-align: center;
+    padding: 5% 15%;
+    
+}
+
+.reviews{
+    margin: 5% 10%;
+    display: flex;
+    justify-content: space-around;
+}
