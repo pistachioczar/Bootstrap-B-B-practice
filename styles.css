@@ -1,12 +1,15 @@
 /* Basic styling */
-
-header a{
-    text-decoration: none;
-    color: black;
+body{
+    background-color: rgb(240, 240, 240);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-header a h1{
-    font-weight: 200;
+.navbar{
+    padding:0;
+}
+
+.container-fluid{
+    background-color: rgb(165, 165, 165);
 }
 
 .nav-link{
@@ -36,3 +39,23 @@ header a h1{
     display: flex;
     justify-content: space-around;
 }
+
+.contact-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form{
+    width: 40%;
+}
+
+textarea{
+    height: 300px;
+}
+
+iframe{
+    width: 40%;
+}
+
